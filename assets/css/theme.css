@@ -16,7 +16,7 @@
   --warning: #FAC14D;
   --danger: #FF4943;
   --grey:  #ed95b2;
-  --dark: #2D2B3A;
+  --dark: #000000;
   --light: #F6F5FC;
 }
 
@@ -25,7 +25,7 @@
 body {
   font-family: "Work Sans", sans-serif;
   line-height: 1.5;
-  color: #2D2B3A;
+  color: #000000;
 }
 
 a {
@@ -134,7 +134,7 @@ a.bg-light:hover, a.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #2D2B3A !important;
+  background-color: #000000 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus {
@@ -214,7 +214,7 @@ a.text-light:hover, a.text-light:focus {
 }
 
 .text-dark {
-  color: #2D2B3A !important;
+  color: #000000 !important;
 }
 
 a.text-dark:hover, a.text-dark:focus {
@@ -283,7 +283,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .border-dark {
-  border-color: #2D2B3A !important;
+  border-color: #000000 !important;
 }
 
 /* Social Color */
@@ -644,7 +644,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .btn-dark {
   color: #fff;
-  background-color: #2D2B3A;
+  background-color: #000000;
   border-color: transparent;
 }
 
@@ -657,7 +657,7 @@ a.text-dark:hover, a.text-dark:focus {
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #2D2B3A;
+  background-color: #000000;
   border-color: #1d1b25;
 }
 
@@ -959,14 +959,14 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-outline-dark {
-  color: #2D2B3A;
-  border-color: #2D2B3A;
+  color: #000000;
+  border-color: #000000;
 }
 
 .btn-outline-dark:hover {
   color: #fff;
-  background-color: #2D2B3A;
-  border-color: #2D2B3A;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-outline-dark:focus, .btn-outline-dark.focus {
@@ -974,15 +974,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .btn-outline-dark.disabled, .btn-outline-dark:disabled {
-  color: #2D2B3A;
+  color: #000000;
   background-color: transparent;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active, .btn-outline-dark:not(:disabled):not(.disabled).active,
 .show > .btn-outline-dark.dropdown-toggle {
   color: #fff;
-  background-color: #2D2B3A;
-  border-color: #2D2B3A;
+  background-color: #000000;
+  border-color: #000000;
 }
 
 .btn-outline-dark:not(:disabled):not(.disabled):active:focus, .btn-outline-dark:not(:disabled):not(.disabled).active:focus,
@@ -1387,7 +1387,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section p {
-  color: #898798;
+  color: #2a2424;
 }
 
 
@@ -1409,7 +1409,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-banner.home-banner h1 {
-  color: #2D2B3A;
+  color: #000000;
 }
 
 .page-banner.home-banner .img-place {
@@ -1477,14 +1477,14 @@ a.text-dark:hover, a.text-dark:focus {
   display: block;
   text-transform: uppercase;
   letter-spacing: 3px;
-  color: #898798;
+  color: #2a2424;
   font-weight: 500;
   margin-bottom: 8px;
 }
 
 .title-section {
   max-width: 450px;
-  color: #2D2B3A;
+  color: #000000;
   font-weight: 600;
 }
 
@@ -1549,7 +1549,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 32px 20px;
   max-width: 300px;
   text-align: center;
-  color: #898798;
+  color: #2a2424;
   border-radius: 8px;
   box-shadow: 0 3px 12px rgba(95, 92, 120, 0.12);
 }
@@ -1587,12 +1587,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .features h5 {
-  color: #2D2B3A;
+  color: #000000;
 }
 
 .features p {
   font-size: 13px;
-  color: #898798;
+  color: #2a2424;
 }
 
 
@@ -1613,7 +1613,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 .counter-section p {
   margin-bottom: 6px;
-  color:  #ed95b2;
+  font-weight: 700;
+  color:  #ed6960;
 }
 
 
@@ -1755,12 +1756,12 @@ a.text-dark:hover, a.text-dark:focus {
 
 .card-blog .post-title a {
   font-weight: 500;
-  color: #2D2B3A;
+  color: #000000;
 }
 
 .card-blog .post-excerpt {
   font-size: 14px;
-  color: #898798;
+  color: #2a2424;
 }
 
 .card-blog .footer {
@@ -1876,7 +1877,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-footer p {
-  color: #898798;
+  color: #2a2424;
 }
 
 .footer-menu {
@@ -1896,7 +1897,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .footer-menu a,
 .footer-link {
-  color: #898798;
+  color: #2a2424;
 }
 
 .footer-menu a:hover,
@@ -1913,7 +1914,7 @@ a.text-dark:hover, a.text-dark:focus {
   text-align: center;
   border-radius: 50%;
   background-color: #F6F5FC;
-  color: #898798;
+  color: #2a2424;
   transition: all .2s linear;
 }
 
